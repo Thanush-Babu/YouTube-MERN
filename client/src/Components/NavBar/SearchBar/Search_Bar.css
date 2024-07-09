@@ -1,0 +1,99 @@
+/*---------- NAVBAR CENTER (SEARCH BAR ----------*/
+.navbar-center{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    }
+
+  
+   .voice-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .input-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .search-icon-input {
+    position: sticky;
+    left: 29.5%;
+    top: 30px;
+    transform: translateY(-50%);
+    color: gray; /* Icon color */
+    display: none!important; /*Hidden by default */
+  }
+  .search-icon-input.user{
+    position: sticky;
+    left: 30%;
+    top: 30px;
+    transform: translateY(-50%);
+    color: gray; /* Icon color */
+    display: none!important; /*Hidden by default */
+  }
+  .input-container.focused .search-icon-input {
+    display: block!important; /* Show icon on focus */
+  }
+  .input-container.focused .search-icon-input.user {
+    display: block!important; /* Show icon on focus */
+    padding: 0 0 0 10px ;
+  }
+  .input-container.focused .search-input {
+    padding-left: 31px ;
+  }
+
+  .search-input {
+    color: whitesmoke;
+    width: 100%;
+    padding: 11.5px 12px;
+    margin-left: 35px;
+    margin-right: .7375px;
+    border: 1px solid #a1a1a1;
+    background-color: #0F0F0F;
+    border-radius: 20px 0 0 20px;
+  }
+
+  .search-input:focus{
+    outline: 1px solid #3EA6FF;
+    margin-left: 0;
+  }
+
+
+  .search-button {
+    border: 1px solid #a1a1a1;
+    border-radius: 0 20px 20px 0;
+    color: #FFFFFF!important;
+    background-color: #222222;
+    padding: 8px 3% ;
+    margin: .1% .3% 0 0 ;
+    cursor: pointer;
+  }
+
+  .search-input, .search-button{
+    border-color: #363636;
+  }
+  
+  .search-button:hover,.voice-button:hover{
+    background-color: #3D3D3D;
+  }
+  .search-button i{
+    font-size: 125%;
+  }
+
+  .voice-button {
+    color: #FFFFFF;
+    margin-left: 10px;
+    padding: 12px 13px ;
+    border: none;
+    background-color:#222222;
+    border-radius: 50%;
+  }
+
+
+  .voice-button i{
+    font-size: 110%;
+  }

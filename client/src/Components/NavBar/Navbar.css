@@ -1,0 +1,158 @@
+body {
+  height: 100vh;
+}
+
+/* ========== NAVBAR CONTAINER ========== */
+.Container_Navbar {
+  border: 1px solid #0f0f0f;
+  margin: none;
+  padding: 0 16px;
+  background-color: #0f0f0f;
+  max-width: 100%;
+  width: 100vw-2rem;
+  height: 58px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* ---------- NAVBAR LEFT ---------- */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  margin: 0 3.8% 0 0.8%;
+  width: 7%;
+}
+
+.Burger {
+  cursor: pointer;
+}
+
+.Logo_And_Branding {
+  margin: 0 0 3% 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.branding {
+  margin: 0 0 4% 3%;
+  flex-direction: row;
+  margin-right: 5%;
+}
+
+.pathway-gothic-one-regular {
+  font-family: "Pathway Gothic One", sans-serif;
+  font-weight: 600;
+  font-size: 135%;
+  font-style: normal;
+}
+
+sup {
+  margin: 0 5% 20% 5%;
+  color: #aaaaaa;
+  font-weight: lighter;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 70%;
+  letter-spacing: -0.4px;
+}
+
+.menu-button i {
+  font-size: 125%;
+}
+
+/*---------- NAVBAR RIGHT ----------*/
+.navbar-right {
+  display: flex;
+  align-items: center;
+  margin: 0.8% 0 0.8% 0;
+  padding: 0 1% 0 0.8%;
+  width: auto;
+}
+
+.notifications-button {
+  position: relative;
+  color: white;
+}
+
+.notification-count {
+  position: absolute;
+  top: .2rem;
+  right:0.2rem;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  border-radius: 100%;
+  padding: 2px 5px;
+}
+
+.profile-button {
+  margin: 0 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #375494;
+  color: #ccc;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.create-button,
+.notifications-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  margin: 0 5px;
+  padding: 7px 9px;
+}
+
+.notifications-button {
+  padding: 10px 12px;
+  border-radius: 3rem;
+}
+
+.create-button,
+.notifications-button i {
+  font-size: 125%;
+}
+
+.create-button:hover,
+.notifications-button:hover {
+  border-radius: 3rem;
+  background-color: #272727;
+}
+
+.auth_cont_navbar {
+  width: fit-content;
+  margin-left: 3%;
+  cursor: pointer;
+}
+
+.auth_button {
+  display: flex;
+  flex-wrap: nowrap;
+  color: #3ea6ff;
+  background-color: #363636;
+  padding: 8px;
+  border-radius: 2rem;
+  border: 1px solid #a1a1a1;
+  cursor: pointer;
+}
+
+.auth_button b {
+  padding: 4px 3px 0 2px;
+  text-wrap: nowrap;
+  font-size: medium;
+}
+.auth_button:hover {
+  background-color: #3d3d3d;
+}

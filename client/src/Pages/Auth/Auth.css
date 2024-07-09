@@ -1,0 +1,88 @@
+.Auth_container {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 500;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  display: flex;
+}
+.Auth_container2 {
+  /* padding: 0.5rem; */
+  display: flex;
+  position: absolute;
+  right: 2.5rem;
+  background-color: #222222;
+  border-radius: 0.5rem;
+  top: 0.8rem;
+  right: 5rem;
+  text-align: center;
+  flex-direction: column;
+  border: none;
+  color: aliceblue;
+  z-index: 500;
+}
+.FirstChar_Logo {
+  background-color: #375494;
+  padding: 0.5rem 0.7rem;
+  margin: 1rem;
+  border-radius: 100%;
+}
+.User_Details {
+  margin: 0 auto;
+  padding: 0.7rem;
+  display: flex;
+  border-bottom: 1px solid grey;
+  padding-inline-start: 1.2rem 0.9rem;
+}
+
+.channelName_and_email {
+  padding: 0.5rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.email_Auth,
+.channelName_Auth {
+  font-size: 16px;
+  font-weight: bold;
+}
+.channel_btn {
+  border: none;
+  background-color: none;
+  color: #3ea6ff;
+  text-decoration: none;
+}
+.FirstChar_Logo,
+.email_Auth,
+.channelName_Auth,
+.log_out_btn {
+  font-family: Arial, roboto, sans-serif;
+}
+
+.btns_Auth_inner{
+    padding: .5rem 0;    
+}
+
+.btn_Auth{
+    color: white;
+    padding: .5rem 1rem .5rem 1.5rem;
+    border: 0;
+    margin: 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+}
+
+.btn_Auth:hover {
+  background-color: #3d3d3d;
+}
+
+.btns_Auth {
+  cursor: pointer;
+  text-decoration: none;
+}

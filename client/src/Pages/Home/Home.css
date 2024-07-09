@@ -1,0 +1,31 @@
+.container_Pages_App{
+  display:block!important;
+}
+.container2_Pages_App {
+  position: relative;
+  left: 4.7rem;
+  width: calc(100vw - 4.7rem);
+}
+.navigation_Home {
+  font-family: Arial,Roboto, sans-serif;
+  color: white;
+  background-color: #0f0f0f;
+  position: sticky;
+  display: flex;
+  overflow-x: auto;
+  right: 0;
+  border-bottom: 2px solid rgb(128, 128, 128, 0.27);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.btn_nav_home {
+  background-color: #222222;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.btn_nav_home:hover {
+  background-color: #3D3D3D;
+}
